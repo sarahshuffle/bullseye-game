@@ -11,7 +11,9 @@
 		AE19AC1D1E8E5630002FE6C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19AC1C1E8E5630002FE6C2 /* ViewController.swift */; };
 		AE19AC201E8E5630002FE6C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19AC1E1E8E5630002FE6C2 /* Main.storyboard */; };
 		AE19AC221E8E5630002FE6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE19AC211E8E5630002FE6C2 /* Assets.xcassets */; };
-		AE19AC251E8E5630002FE6C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19AC231E8E5630002FE6C2 /* LaunchScreen.storyboard */; };
+		AE19AC2D1E8EA223002FE6C2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19AC2C1E8EA223002FE6C2 /* AboutViewController.swift */; };
+		AE19AC2F1E916B13002FE6C2 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = AE19AC2E1E916B13002FE6C2 /* BullsEye.html */; };
+		AE19AC311E917C5E002FE6C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19AC301E917C5E002FE6C2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +22,10 @@
 		AE19AC1C1E8E5630002FE6C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE19AC1F1E8E5630002FE6C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE19AC211E8E5630002FE6C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE19AC241E8E5630002FE6C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE19AC261E8E5630002FE6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE19AC2C1E8EA223002FE6C2 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		AE19AC2E1E916B13002FE6C2 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		AE19AC301E917C5E002FE6C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		AE19AC0E1E8E562F002FE6C2 = {
 			isa = PBXGroup;
 			children = (
+				AE19AC301E917C5E002FE6C2 /* Default-568h@2x.png */,
 				AE19AC191E8E562F002FE6C2 /* BullsEye */,
 				AE19AC181E8E562F002FE6C2 /* Products */,
 			);
@@ -54,11 +59,12 @@
 		AE19AC191E8E562F002FE6C2 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				AE19AC2E1E916B13002FE6C2 /* BullsEye.html */,
 				AE19AC1A1E8E5630002FE6C2 /* AppDelegate.swift */,
 				AE19AC1C1E8E5630002FE6C2 /* ViewController.swift */,
 				AE19AC1E1E8E5630002FE6C2 /* Main.storyboard */,
+				AE19AC2C1E8EA223002FE6C2 /* AboutViewController.swift */,
 				AE19AC211E8E5630002FE6C2 /* Assets.xcassets */,
-				AE19AC231E8E5630002FE6C2 /* LaunchScreen.storyboard */,
 				AE19AC261E8E5630002FE6C2 /* Info.plist */,
 			);
 			path = BullsEye;
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					AE19AC161E8E562F002FE6C2 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 438635TUNZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,7 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE19AC251E8E5630002FE6C2 /* LaunchScreen.storyboard in Resources */,
+				AE19AC2F1E916B13002FE6C2 /* BullsEye.html in Resources */,
+				AE19AC311E917C5E002FE6C2 /* Default-568h@2x.png in Resources */,
 				AE19AC221E8E5630002FE6C2 /* Assets.xcassets in Resources */,
 				AE19AC201E8E5630002FE6C2 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE19AC2D1E8EA223002FE6C2 /* AboutViewController.swift in Sources */,
 				AE19AC1D1E8E5630002FE6C2 /* ViewController.swift in Sources */,
 				AE19AC1B1E8E5630002FE6C2 /* AppDelegate.swift in Sources */,
 			);
@@ -150,14 +159,6 @@
 				AE19AC1F1E8E5630002FE6C2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AE19AC231E8E5630002FE6C2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE19AC241E8E5630002FE6C2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,7 +261,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 438635TUNZ;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sarah.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +275,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 438635TUNZ;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sarah.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
